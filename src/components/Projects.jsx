@@ -21,6 +21,9 @@ const Projects = () => {
             image: Icecream,
             live: "https://ice-cream-delta-two.vercel.app/", 
        },
+       {
+        
+       }
     ];
     const displayProjects = [...projectList];
 

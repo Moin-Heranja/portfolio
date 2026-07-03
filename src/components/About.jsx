@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
-import Photo from "../assets/image/photo.jpeg"
+import Photo from "../assets/image/photo.png"
 
-const skills = ["React.js", "JavaScript", "HTML", "CSS", "TypeScript","Node.js", "Express", "MongoDB", "Git", "Postman", "Bootstrap"];
+
+const skills = ["React.js", "JavaScript", "HTML", "CSS","Node.js", "Express", "MongoDB", "Git","Github", "Postman","Thunderclient"];
 
 const AboutMe = () => {
     const [activeSkill, setActiveSkill] = useState(null);
@@ -40,9 +41,6 @@ const AboutMe = () => {
                                 </span>
                             ))}
                         </div>
-                        <div className="cta-row">
-                            <button className="about-btn" data-aos="fade-up" data-aos-delay="100" >View Projects →</button>
-                        </div>
                     </div>
 
                     {/* RIGHT */}
@@ -68,8 +66,8 @@ const AboutMe = () => {
                             </div>
 
                             <div className="stat-card stat-card-b">
-                                <div className="stat-num">3+</div>
-                                <div className="stat-label">MINI PROJECTS</div>
+                                <div className="stat-num">5+</div>
+                                <div className="stat-label">PROJECTS</div>
                             </div>
                         </div>
                     </div>
