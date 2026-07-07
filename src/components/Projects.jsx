@@ -4,7 +4,6 @@ import secure from "../assets/image/secure.png";
 import product from "../assets/image/product.png";
 import note from "../assets/image/note.png";
 import Dashboard from "../assets/image/dashboard.png";
-import Export from "../assets/image/export.png";
 import Icecream from "../assets/image/icecream.png"
 import fabrication from "../assets/image/fabrication.png"
 
@@ -15,12 +14,6 @@ const Projects = () => {
             desc: "A responsive frontend web app with interactive menu, clean user interface.",
             image: fabrication,
             live: "https://fabrication-eight.vercel.app/",
-        },
-        {
-            title: "AN Global Exports",
-            desc: "A modern exporting website with responsive design and stylish product showcase features.",
-            image: Export,
-            live: "https://www.anglobalexports.com/",
         },
         {
             title: "Ice cream Food web app",
