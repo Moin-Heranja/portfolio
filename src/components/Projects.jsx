@@ -1,14 +1,8 @@
-import Watch from "../assets/image/Watch.png";
-import food from "../assets/image/food.png";
-import secure from "../assets/image/secure.png";
-import product from "../assets/image/product.png";
-import note from "../assets/image/note.png";
-import Dashboard from "../assets/image/dashboard.png";
 import Icecream from "../assets/image/icecream.png"
 import fabrication from "../assets/image/fabrication.png"
-import netflix from "../assets/image/netflix.png"
+import netflix from "../assets/image/netflix.PNG"
 
-const Projects = () => {
+export const Projects = () => {
     const projectList = [
         {
             title: "Netflix website",
