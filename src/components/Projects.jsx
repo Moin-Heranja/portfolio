@@ -6,17 +6,24 @@ import note from "../assets/image/note.png";
 import Dashboard from "../assets/image/dashboard.png";
 import Icecream from "../assets/image/icecream.png"
 import fabrication from "../assets/image/fabrication.png"
+import netflix from "../assets/image/netflix.png"
 
 const Projects = () => {
     const projectList = [
         {
-            title: "Fabrication web app",
+            title: "Netflix website",
+            desc: "A Full stack web application with MERN technologies",
+            image: netflix,
+            live: "https://netflix-clone-frontend-ecru.vercel.app/",
+        },
+        {
+            title: "Fabrication web application",
             desc: "A responsive frontend web app with interactive menu, clean user interface.",
             image: fabrication,
             live: "https://fabrication-eight.vercel.app/",
         },
         {
-            title: "Ice cream Food web app",
+            title: "Ice cream Website",
             desc: "A responsive frontend web app with interactive menu, clean user interface.",
             image: Icecream,
             live: "https://ice-cream-delta-two.vercel.app/",

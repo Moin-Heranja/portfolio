@@ -4,7 +4,7 @@ const Contact = () => {
             <div className="contact-glass-card" data-aos="fade-up" data-aos-delay="100">
                 <div className="contact-info">
                     <h1>Schedule a call with me to see how <span className="highlight-text">I can help you.</span></h1>
-                    <p className="sub-text">I am a beginner full stack developer, ready to learn and build clean and responsive websites.</p>
+                    <p className="sub-text">I am a full stack developer, ready to learn and build clean and responsive websites.</p>
 
                     <div className="info-items">
                         <div className="info-item">
