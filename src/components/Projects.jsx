@@ -12,7 +12,7 @@ const Projects = () => {
     const projectList = [
         {
             title: "Netflix website",
-            desc: "A Full stack web application with MERN technologies",
+            desc: "A Full stack web application with MERN technologies .",
             image: netflix,
             live: "https://netflix-clone-frontend-ecru.vercel.app/",
         },
